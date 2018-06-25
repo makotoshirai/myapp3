@@ -1,0 +1,14 @@
+memo
+必要な項目
+・性格のタイプ chara_type
+・教えたいこと lesson_type
+・教える上で気をつけておきたいこと lesson_manner
+・お金についての経験年数 money_year
+・場所 address
+・リスティングタイトル listing_title
+・リスティング内容 listing_content
+・一回あたりの値段 listing_price
+・公開・非公開 active:boolean
+
+他のモデルとの関係性
+Userは複数のリスティングを持てる user:references

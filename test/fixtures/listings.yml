@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chara_type: MyString
+  lesson_type: MyString
+  lesson_manner: MyString
+  money_year: 1
+  address: MyString
+  listing_title: MyString
+  listing_content: MyString
+  listing_price: 1
+  active: false
+  user_id: 
+
+two:
+  chara_type: MyString
+  lesson_type: MyString
+  lesson_manner: MyString
+  money_year: 1
+  address: MyString
+  listing_title: MyString
+  listing_content: MyString
+  listing_price: 1
+  active: false
+  user_id: 
