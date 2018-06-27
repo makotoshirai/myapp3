@@ -18,15 +18,19 @@ gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
 
 
+group :prodution do
+	gem 'pg'
+	gem 'rails_12factor'
+end
 
 group :development, :test do
   gem 'sqlite3'
+end
+
+group :development, :test do
   gem 'byebug'
 end
 
-group :prodution do
-	gem 'pg'
-end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
