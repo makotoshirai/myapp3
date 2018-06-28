@@ -16,16 +16,10 @@ gem "paperclip", "~> 6.0.0"
 gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
 
-
-group :prodution do
-	gem 'pg'
-	gem 'rails_12factor'
-end
-
-group :development, :test do
-  gem 'sqlite3'
-  gem 'byebug'
-end
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', :group => [:development, :test]
+# Use postgreSQL as the database for Active Record
+gem 'pg', :group => :production
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
