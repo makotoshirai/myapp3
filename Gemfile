@@ -16,7 +16,7 @@ gem "paperclip", "~> 6.0.0"
 gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
 
-gem 'sqlite3', group: :development
+gem 'sqlite3', '~> 1.3.13', group: :development
 # 本番ではpostgresqlを使用する
 gem 'pg', group: :production
 
